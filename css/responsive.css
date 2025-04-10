@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .product {
+    row-gap: 10px;
+  }
+
+  .product-item {
+    width: calc(50% - 5px);
+  }
+}
