@@ -6,12 +6,12 @@ body {
   max-width: 1270px;
   margin: 100px auto 0px auto;
   display: flex;
-  column-gap: 46px;
+  justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .product-item {
-  max-width: 283px;
+  width: 283px;
   height: 459px;
   text-align: center;
 }
