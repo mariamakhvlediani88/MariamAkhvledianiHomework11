@@ -8,12 +8,15 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* justify-content: center; */
 }
 .product-item {
   width: 283px;
   height: 459px;
   text-align: center;
+  transition: 0.5s ease-in;
+}
+.product-item:hover {
+  transform: scale(1.1);
 }
 .product-img-watch {
   width: 100%;
@@ -51,6 +54,7 @@ body {
   background-repeat: no-repeat;
   border-radius: 32px;
 }
+
 h2 {
   font-size: 24px;
   font-weight: 500;
@@ -75,4 +79,8 @@ button {
   border-radius: 34px;
   background-color: #fd6f5e;
   margin-top: 13px;
+  transition: width 1s;
+}
+button:hover {
+  width: 200px;
 }
